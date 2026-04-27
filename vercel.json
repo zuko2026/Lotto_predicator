@@ -1,0 +1,1 @@
+{\n  "buildCommand": "pip install -r requirements.txt",\n  "outputDirectory": ".",\n  "framework": "python",\n  "functions": {\n    "api/**/*.py": {\n      "runtime": "python3.9"\n    }\n  },\n  "env": [\n    {\n      "key": "PYTHONUNBUFFERED",\n      "value": "1"\n    }\n  ]\n}
